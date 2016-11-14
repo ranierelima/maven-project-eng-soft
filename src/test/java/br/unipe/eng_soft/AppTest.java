@@ -1,12 +1,9 @@
 package br.unipe.eng_soft;
 
 
-import org.junit.Test;
-
 import junit.framework.Test;
 import junit.framework.TestCase;
 import junit.framework.TestSuite;
-import junit.framework.Assert;
 
 /**
  * Unit test for simple App.
@@ -39,12 +36,4 @@ public class AppTest
     {
         assertTrue( true );
     }
-    
-    	@Test
-	    public void multiplicationOfZeroIntegersShouldReturnZero() {
-		
-		boolean valorAtual = true;
-		
-		Assert.assertEquals(true, valorAtual);
-	}
 }
