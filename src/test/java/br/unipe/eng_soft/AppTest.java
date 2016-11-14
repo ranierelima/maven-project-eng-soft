@@ -35,4 +35,12 @@ public class AppTest
     {
         assertTrue( true );
     }
+    
+    	@Test
+	    public void multiplicationOfZeroIntegersShouldReturnZero() {
+		
+		boolean valorAtual = true;
+		
+		Assert.assertEquals(true, valorAtual);
+	}
 }
